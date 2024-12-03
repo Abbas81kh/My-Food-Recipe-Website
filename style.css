@@ -1,0 +1,570 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    font-family: sans-serif;
+}
+
+
+
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+.image-container img {
+    width: 100%;
+    height: 25vh;
+}
+
+.image-text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding-bottom: 15vh;
+    font-size: 222%;
+    text-align: center;
+}
+
+
+
+
+/* All recipes and home button css */
+#home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+    padding: 0px 35vw 0px 45vw;
+    letter-spacing: 2px;
+    background-color: #ffa502;
+}
+
+#home a{
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    background-color: #85c32f;
+
+}
+
+
+
+
+@media(max-width:768px) {
+    #home {
+        padding: 0px 9vw 0px 33vw;
+        font-size: 12px;
+    }
+}
+
+
+
+
+/* Main-Box-Container */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box1 {
+    background-color: rgb(82, 151, 134);
+    border-radius: 7px;
+    width: 45vh;
+    height: 40vh;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 3px 40px #000000;
+}
+
+/* All Boxes Hover Effects */
+.container img:hover {
+
+    box-shadow: 0px 10px 15px rgba(36, 106, 204, 0.2);
+}
+
+.box1:hover {
+    background-color: rgb(52, 79, 177);
+}
+
+
+.box2 {
+    background-color: rgb(58, 76, 140);
+    border-radius: 7px;
+    width: 45vh;
+    height: 40vh;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 3px 40px #000000;
+}
+
+
+.box2:hover {
+    background-color: rgb(52, 79, 177);
+}
+
+.box3 {
+    background-color: rgb(112, 129, 59);
+    border-radius: 7px;
+    width: 45vh;
+    height: 40vh;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 3px 40px #000000;
+}
+
+
+
+.box3:hover {
+    background-color: rgb(52, 79, 177);
+}
+
+.box4 {
+    background-color: rgb(67, 165, 72);
+    border-radius: 7px;
+    width: 45vh;
+    height: 40vh;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 3px 40px #000000;
+}
+
+
+
+.box4:hover {
+    background-color: rgb(52, 79, 177);
+}
+
+
+.box5 {
+    background-color: rgb(52, 176, 43);
+    border-radius: 7px;
+    width: 45vh;
+    height: 40vh;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 3px 40px #000000;
+}
+
+
+.box5:hover {
+    background-color: rgb(52, 79, 177);
+}
+
+
+
+.box6 {
+    background-color: rgb(82, 151, 134);
+    border-radius: 7px;
+    width: 45vh;
+    height: 40vh;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 3px 40px #000000;
+}
+
+
+
+.box6:hover {
+    background-color: rgb(52, 79, 177);
+}
+
+
+.box7 {
+    background-color: rgb(5, 225, 85);
+    border-radius: 7px;
+    width: 45vh;
+    height: 40vh;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 3px 40px #000000;
+}
+
+.box7:hover {
+    background-color: rgb(52, 79, 177);
+}
+
+
+.box8 {
+    background-color: rgb(156, 49, 115);
+    border-radius: 7px;
+    width: 45vh;
+    height: 40vh;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 3px 40px #000000;
+}
+
+.box8:hover {
+    background-color: rgb(52, 79, 177);
+}
+
+.box9 {
+    background-color: rgb(43, 208, 46);
+    border-radius: 7px;
+    width: 45vh;
+    height: 40vh;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 3px 40px #000000;
+}
+
+.box9:hover {
+    background-color: rgb(52, 79, 177);
+}
+
+
+.box10 {
+    background-color: rgb(208, 164, 43);
+    border-radius: 7px;
+    width: 45vh;
+    height: 40vh;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 3px 40px #000000;
+}
+
+.box10:hover {
+    background-color: rgb(52, 79, 177);
+}
+
+
+.box11 {
+    background-color: rgb(208, 164, 43);
+    border-radius: 7px;
+    width: 45vh;
+    height: 40vh;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 3px 40px #000000;
+}
+
+.box11:hover {
+    background-color: rgb(52, 79, 177);
+}
+
+.box12 {
+    background-color: rgb(43, 106, 208);
+    border-radius: 7px;
+    width: 45vh;
+    height: 40vh;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 3px 40px #000000;
+}
+
+.box12:hover {
+    background-color: rgb(52, 79, 177);
+}
+
+.box13 {
+    background-color: rgb(112, 208, 43);
+    border-radius: 7px;
+    width: 45vh;
+    height: 40vh;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 3px 40px #000000;
+}
+
+.box13:hover {
+    background-color: rgb(52, 79, 177);
+}
+
+.box14 {
+    background-color: rgb(208, 43, 156);
+    border-radius: 7px;
+    width: 45vh;
+    height: 40vh;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 3px 40px #000000;
+}
+
+.box14:hover {
+    background-color: rgb(52, 79, 177);
+}
+
+.box15 {
+    background-color: rgb(255, 240, 109);
+    border-radius: 7px;
+    width: 45vh;
+    height: 40vh;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 3px 40px #000000;
+}
+
+.box15:hover {
+    background-color: rgb(52, 79, 177);
+}
+
+
+.box16 {
+    background-color: rgb(208, 43, 156);
+    border-radius: 7px;
+    width: 45vh;
+    height: 40vh;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 3px 40px #000000;
+}
+
+.box16:hover {
+    background-color: rgb(52, 79, 177);
+}
+
+
+.box17 {
+    background-color: rgb(60, 53, 192);
+    border-radius: 7px;
+    width: 45vh;
+    height: 40vh;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 3px 40px #000000;
+}
+
+.box17:hover {
+    background-color: rgb(52, 79, 177);
+}
+
+
+.box18 {
+    background-color: rgb(98, 45, 124);
+    border-radius: 7px;
+    width: 45vh;
+    height: 40vh;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 3px 40px #000000;
+}
+
+.box18:hover {
+    background-color: rgb(52, 79, 177);
+}
+
+
+.box19 {
+    background-color: rgb(38, 77, 219);
+    border-radius: 7px;
+    width: 45vh;
+    height: 40vh;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 3px 40px #000000;
+}
+
+
+.box19:hover {
+    background-color: rgb(52, 79, 177);
+}
+
+
+
+.box20 {
+    background-color: rgb(144, 40, 151);
+    border-radius: 7px;
+    width: 45vh;
+    height: 40vh;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 3px 40px #000000;
+}
+
+
+
+
+.box20:hover {
+    background-color: rgb(52, 79, 177);
+}
+/* All Boxes text decorations */
+.box1 a,
+.box2 a,
+.box3 a,
+.box4 a,
+.box5 a,
+.box6 a,
+.box7 a,
+.box8 a,
+.box9 a, 
+.box10 a,
+.box11 a,
+.box12 a,
+.box13 a,
+.box14 a,
+.box15 a,
+.box16 a,
+.box17 a,
+.box18 a,
+.box19 a,
+.box20 a{
+    text-decoration: none;
+}
+
+
+
+/* All Boxes margin right side in between */
+.box1,
+.box2,
+.box3,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9,
+.box10,
+.box11,
+.box12,
+.box13,
+.box14,
+.box15,
+.box16,
+.box17,
+.box18,
+.box19,
+.box20{
+    margin-right: 35px;
+}
+
+/* all boxes images border radius */
+.box1 img,
+.box2 img,
+.box3 img,
+.box4 img,
+.box5 img,
+.box6 img,
+.box7 img,
+.box8 img,
+.box9 img,
+.box10 img,
+.box11 img,
+.box12 img,
+.box13 img,
+.box14 img,
+.box15 img,
+.box16 img,
+.box17 img,
+.box18 img,
+.box19 img,
+.box20 img{
+    border-radius: 7px;
+
+}
+
+
+
+
+/* header image text for phones screens */
+@media(max-width:768px) {
+    .image-text {
+        font-size: 22px;
+        line-height: 1.3;
+    }
+}
+
+/* For Phones Screen Boxes.. */
+@media(max-width:768px) {
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .box6,
+    .box7,
+    .box8,
+    .box9,
+    .box10,
+    .box11,
+    .box12,
+    .box13,
+    .box14,
+    .box15,
+    .box16,
+    .box17,
+    .box18,
+    .box19,
+    .box20{
+        width: auto;
+    }
+}
+
+
+
+
+
+/* Second page button css */
+
+
+.second-page a{
+    text-decoration: none;
+    color: white;
+}
+.second-page button{
+    background-color: rgb(38, 68, 164);
+    font-size: 87%;
+    border-radius: 4px;
+    box-shadow: 0px 3px 40px #3f3737;
+}
+.second-page{
+    text-align: center;
+    padding: 25px;
+    background-color: #db9e2b;
+}
+
+
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    /* Dark background for contrast */
+    color: white;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+
+.footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-nav ul li {
+    display: inline;
+}
+
+.footer-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-nav ul li a:hover {
+    text-decoration: none;
+    color: #f39c12;
+}
+
+.footer-message p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.footer-copyright p {
+    margin: 5px 0;
+    font-size: 12px;
+    color: #bbb;
+    /* Slightly lighter text color for the copyright */
+}
